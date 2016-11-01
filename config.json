@@ -1,0 +1,36 @@
+{
+    "brand": {
+        "name": "rogue-client",
+        "version": "1.0.0.1",
+        "company": {
+            "name": "some company",
+            "copyright": "2016"
+        }
+    },
+    "config": {
+        "environment": "dev",
+        "https": true,
+        "path": {
+            "view": {
+                "base": "/view/",
+                "error": "/view/error/",
+                "layout": "/view/layout/"
+            },
+            "data": {
+                "base": "/data/"
+            }
+        },
+        "api": {
+            "auth": "http://www.somedomain.co.uk/authapi"
+        },
+        "ui": {
+            "theme": "dark",
+            "animation": true
+        },
+        "ajax": {
+            "async": true,
+            "cache": true,
+            "timeout": 50000
+        }
+    }
+}
